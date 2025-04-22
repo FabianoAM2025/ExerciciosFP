@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  
+  <title>Tabela de Restaurante</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #DEB887;
+    }
+
+    table {
+      border-collapse: collapse;
+      border: 2px solid #333;
+    }
+
+    th, td {
+      border: 2px solid #333;
+      padding: 10px;
+      text-align: center;
+    }
+    tr:hover {
+      background-color: #adee2f;
+    }
+
+    th {
+      background-color: #D2691E; 
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <body>
+  
+  	    <tr>        
+       <th>Pratos do dia: </th>
+		    <th>Preço: </th>	
+	       </tr>
+         </head>       
+	     <tr>
+		    <td> Risoto: </td>	
+		     <td> R$ 35,90 </td>
+	        </tr>      
+	     <tr>
+		    <td> Macarronada: </td>	
+		     <td> R$ 25,80 </td>
+	        </tr>      
+	     <tr>
+		    <td> Hamburguer: </td>	
+		     <td> R$ 29,80 </td>
+	        </tr>
+	     <tr>
+		    <td> Frango com legumes: </td>	
+         <td> R$ 30,70 </td>
+          </tr>      
+	     <tr>
+		    <td> Picanha na pedra: </td>	
+		     <td> R$ 65,40 </td>
+	        </tr>
+	     <tr>
+		    <td> Agua com gas: </td>	
+		     <td> R$ 3,40 </td>
+	        </tr>
+	     <tr>
+		    <td> Refrigerante lata 350 ml: </td>	
+		     <td> R$ 5,30 </td>
+	        </tr> 
+       <tr>
+		    <td> Petit Gateau: </td>	
+		     <td> R$ 12,80 </td>
+	        </tr>      
+       <tr>
+        <td> Mousse de chocolate: </td>	
+		     <td> R$ 9,30 </td>
+	        </tr>     	
+      </table>
+</body>
+</html>
+</IDOCTYPE>

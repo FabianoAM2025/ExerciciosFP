@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>  
+  <meta charset="UTF-8">
+  <title>Modelos de Smartphones</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      background-color: #f0f0f0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      color: #222;
+      margin-bottom: 20px;
+    }
+
+    table {
+      border-collapse: collapse;
+      margin: 20px 0;
+      width: 90%;
+      width: clamp(300px, 90%, 800px);
+      background-color: #4169e1;      
+      border-radius: 5px;
+      overflow: hidden;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 14px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #4b0082;
+      color: white;
+    }
+
+    tr:nth-child(even) {
+      background-color: #9400d3;
+    }
+
+    tr:hover {
+      background-color: #adee2f;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Modelos de Smartphones</h1>
+
+  <table>
+    <tr>
+      <th>Modelo</th>
+    </tr>
+    <tr><td>Samsung Galaxy S24 Ultra</td></tr>
+    <tr><td>iPhone 15 Pro Max</td></tr>
+    <tr><td>Xiaomi 13T Pro</td></tr>
+    <tr><td>Motorola Edge 40</td></tr>
+    <tr><td>Asus ROG Phone 7</td></tr>
+    <tr><td>Realme GT Neo 5</td></tr>
+  </table>
+
+  <h1>Comparativo de Preços</h1>
+
+  <table>
+    <tr>
+      <th>Marca</th>
+      <th>Modelo</th>
+      <th>Preço Aproximado</th>
+    </tr>
+    <tr>
+      <td>Samsung</td>
+      <td>Galaxy S24 Ultra</td>
+      <td>R$ 8.999,00</td>
+    </tr>
+    <tr>
+      <td>Apple</td>
+      <td>iPhone 15 Pro Max</td>
+      <td>R$ 10.499,00</td>
+    </tr>
+    <tr>
+      <td>Xiaomi</td>
+      <td>13T Pro</td>
+      <td>R$ 3.899,00</td>
+    </tr>
+    <tr>
+      <td>Motorola</td>
+      <td>Edge 40</td>
+      <td>R$ 2.999,00</td>
+    </tr>
+    <tr>
+      <td>Asus</td>
+      <td>ROG Phone 7</td>
+      <td>R$ 5.799,00</td>
+    </tr>
+    <tr>
+      <td>Realme</td>
+      <td>GT Neo 5</td>
+      <td>R$ 2.799,00</td>
+    </tr>
+  </table>
+
+</body>
+</html>

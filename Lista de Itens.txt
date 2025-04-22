@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>  
+  <title>Tabela de Restaurante</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 300vh;
+      margin: 0;
+      background-color: #98FB98	;
+    }
+    table {
+      border-spacing: 0;
+      border: 2px solid #333;
+      border-radius:10px;
+      overflow-wrap
+      border-collapse: collapse;
+    }
+    tr:hover {
+      background-color: #adee2f;
+    }
+    th, td {
+      border: 2px solid #333;
+      padding: 10px;
+      text-align: center;
+    }
+    th {
+      background-color: #006400; 
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <body>  
+  	    <tr>        
+       <th>Itens da lista: </th>		    
+	       </tr>
+         </head>       
+	     <tr>
+		    <td> Arroz: </td>			     
+	        </tr>      
+	     <tr>
+		    <td> Feijao: </td>
+	        </tr>      
+	     <tr>
+		    <td> Leite: </td>
+	        </tr>
+	     <tr>
+		    <td>  Pão : </td>
+          </tr>      
+	     <tr>
+		    <td> Sabão : </td>
+	        </tr>
+	     <tr>
+		    <td>   Ovos : </td>
+	        </tr>
+	     <tr>
+		    <td>  Tomate: </td>
+	        </tr>         	
+      </table>
+</body>
+</html>
+</IDOCTYPE>
