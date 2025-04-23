@@ -6,11 +6,11 @@
   <style>
     body {
       display: flex;
-      justify-content: center;
+      justify-content: center;      
       align-items: center;
       height: 100vh;
       margin: 0;
-      background-color: #DEB887;
+      background-color: #4169e1;
     }
 
     table {
@@ -28,7 +28,7 @@
     }
 
     th {
-      background-color: #D2691E; 
+      background-color: #0000ff; 
     }
   </style>
 </head>

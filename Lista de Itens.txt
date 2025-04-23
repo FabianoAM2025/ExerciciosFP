@@ -9,11 +9,11 @@
       align-items: center;
       height: 300vh;
       margin: 0;
-      background-color: #98FB98	;
+      background-color: #00bfff	;
     }
     table {
       border-spacing: 0;
-      border: 2px solid #333;
+      border: 2px solid #4169e1;
       border-radius:10px;
       overflow-wrap
       border-collapse: collapse;
@@ -22,12 +22,13 @@
       background-color: #adee2f;
     }
     th, td {
-      border: 2px solid #333;
-      padding: 10px;
+      border: 2px solid #5f9ea0;
+      border-radius:10px;
+      padding: 5px;
       text-align: center;
     }
     th {
-      background-color: #006400; 
+      background-color: #0000ff; 
     }
   </style>
 </head>
